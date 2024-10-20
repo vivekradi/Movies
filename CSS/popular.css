@@ -1,0 +1,79 @@
+body{
+min-height:100vh;
+background-color: #000000;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+background-position:center;
+}
+
+/* Start Of Nav Bar */
+.navbar{
+background-color: #ff0000ab;
+}
+.navbar .logo{
+    color:#fff;
+    font-size:28px;
+    transition: 0.7s;
+}
+.navbar .logo:hover,.navbar ul li a:hover{
+    scale: 1.1;
+    color:black;
+    margin-left:5px;
+}
+.navbar ul li a{
+    color:#fff;
+    font-size:20px;
+    transition: 0.7s;
+}
+.navbar-nav .nav-link.active{
+    color:#fff;
+}
+.navbar-nav .nav-link.active:hover{
+    scale: 1.1;
+    color:black  
+}
+.nav-link:hover{
+color:#fff;
+}
+
+/* Start Of New Section */
+.new-section .inner img{
+    transition: 0.8s;
+}
+.new-section .inner img:hover{
+    cursor: pointer;
+    scale:1.1;
+
+    margin-bottom:20px;
+}
+
+.new-section .inner .Details{
+    background-color: rgba(255, 255, 255,0.1);
+     border-radius:5px;
+     padding:5px;
+     margin-top: 7px;
+     cursor: pointer;
+}
+
+/* Start Of Footer */
+footer ul{
+    display:flex;
+}
+footer ul li{
+    margin: auto;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size:20px;
+    border: 1px solid gold;
+    color:#fff;
+    cursor: pointer;
+    transition: 0.9s;
+}
+footer ul li:hover{
+    background-color:rgb(0, 0, 0);
+}
